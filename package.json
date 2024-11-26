@@ -5,8 +5,6 @@
 	"author": {
 		"name": "Koen van Gasteren",
 		"email": "info@koenvangasteren.nl"
-		"name": "Koen van Gasteren",
-		"email": "info@koenvangasteren.nl"
 	},
 	"homepage": "https://KvGasteren.github.io/",
 	"license": "MIT",
@@ -36,9 +34,6 @@
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
     "deploy": "gh-pages -d build" 
-		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
 	},
 	"eslintConfig": {
 		"extends": [
@@ -61,9 +56,6 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
-	},
-	"devDependencies": {
-		"gh-pages": "^6.2.0"
 	},
 	"devDependencies": {
 		"gh-pages": "^6.2.0"
