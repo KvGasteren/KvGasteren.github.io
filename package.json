@@ -6,7 +6,7 @@
 		"name": "Koen van Gasteren",
 		"email": "info@koenvangasteren.nl"
 	},
-	"homepage": "https://KvGasteren.github.io/",
+	"homepage": "https://KvGasteren.github.io",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
