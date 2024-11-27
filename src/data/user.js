@@ -16,15 +16,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "QBMK - Quality Benchmark!",
+		title: "Make-IT-Work Portfolio",
 		description:
-			"Ik ben een ontwikkelaar-in-spe. Ik heb grote ambitie en neem met Make-IT-Work de teugels in handen om een mooie carriere op te bouwen.",
+			"Op deze site presenteer ik mijn Make-IT-work portfolio.",
 	},
 
 	about: {
-		title: "Ik ben Koen van Gasteren en op deze pagina wil ik mijn portfolio tonen.",
+		title: "Koen van Gasteren",
 		description:
-			"Voor iedere rubric heb ik een post gemaakt met daarin de gevraagde bewijsmaterialen"
+			"Ik ben Koen, een enthousiaste ontwikkelaar. Tijdens make-IT-work werk ik samen met mijn team QBMK aan de projecten."
 	},
 
 	articles: {
