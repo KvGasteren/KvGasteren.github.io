@@ -3,7 +3,7 @@ const INFO = {
 		title: "MIW Portfolio - SOIA",
 		name: "Koen van Gasteren",
 		email: "gasteren@gmail.com",
-		logo: `${process.env.PUBLIC_URL}/logo.png`,
+		logo: `logo.png`,
 	},
 
 	socials: {
