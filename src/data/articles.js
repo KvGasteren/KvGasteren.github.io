@@ -19,11 +19,6 @@ function article_1() {
 					flex-direction: column;
 					align-items: center;
 				}
-
-				.randImage {
-					align-self: center;
-					outline: 2px solid red;
-				}
 				`,
 		body: (
 			<React.Fragment>
@@ -53,7 +48,7 @@ function article_1() {
 							leerzaam.
 						</p>
 					</div>
-					<img src="../plane.png" alt="paper-plane" width="200" />
+					<img src={`${process.env.PUBLIC_URL}/plane.png`} alt="paper-plane" />
 				</div>
 				<div className="paragraph">
 					<h2>GIT in Teams</h2>
@@ -106,8 +101,9 @@ function article_2() {
 							uitgewerkt tot een model dat we met onze PO willen
 							bespreken.
 						</p>
-						<hr />
+						<img src={`${process.env.PUBLIC_URL}/erd.png`} alt="entity-relationship diagram" />
 					</div>
+					
 					<div>
 						<h2>De eerste klassen</h2>
 						<p>
@@ -179,6 +175,53 @@ const article_3 = () => {
 	};
 };
 
-const myArticles = [article_1, article_2, article_3];
+const article_4 = () => {
+	return {
+		date: "28 november 2024",
+		title: "Quizmaster Dag 3",
+		description: "Text I/O, Login Scene, Working From Home, Code",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid red;
+			}
+			`,
+		keywords: ["Text I/O", "Testing", "WFH"],
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						<h2>Working From Home</h2>
+						<p>Als team hebben we besloten om vandaag van huis te werken.</p>
+						<p>De start van de dag was een stand up. Die verliep prima - geen inhoudelijke discussie. Pure updates.</p>
+						<p>Na de stand up heb ik met Bogdan gebeld om even een plan van aanpak te bespreken voor de werkzaamheden van de dag.</p>
+					</div>
+					<div className="paragraph">
+						<h2>Text I/O</h2>
+						<p>We hadden een kleine taakwissel om wat beter uit te komen met afhankelijkheden. Dus ik heb in de ochtend de code geschreven voor het inlezen van de Curussen.</p>
+					</div>
+					<div className="paragraph">
+						<h2>Progress meeting</h2>
+						<p>
+							In de vroege middag hebben we een progressmeeting gehouden waarbij we allemaal onze code presenteerden aan het team.
+							Daaruit zijn nog wat zaken naar voren gekomen die we wilden finetunen, en daarmee zijn we in de middag aan de slag gegaan.
+							In deze vergadering hebben we ook onze code getest - het inlezen van de csv bestanden ging goed en het login en welomsscherm werkte goed.
+						</p>
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+};
+
+
+
+const myArticles = [article_1, article_2, article_3, article_4];
 
 export default myArticles;
