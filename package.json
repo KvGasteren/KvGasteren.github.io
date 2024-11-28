@@ -3,10 +3,11 @@
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Koen van Gasteren",
-		"email": "info@koenvangasteren.nl"
+		"name": "Tharindu N. Madhusanka",
+		"email": "mail@tharindu.dev",
+		"url": "https://tharindu.dev"
 	},
-	"homepage": "https://KvGasteren.github.io",
+	"homepage": "https://KvGasteren.github.io/MIWPortfolio",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
@@ -54,8 +55,8 @@
 		]
 	},
 	"prettier": {
-		"useTabs": true,
-		"tabWidth": 4
+		"useTabs": false,
+		"tabWidth": 2
 	},
 	"devDependencies": {
 		"gh-pages": "^6.2.0"
