@@ -19,6 +19,12 @@ function article_1() {
 					flex-direction: column;
 					align-items: center;
 				}
+					.article-image {
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
 				`,
 		body: (
 			<React.Fragment>
@@ -48,7 +54,7 @@ function article_1() {
 							leerzaam.
 						</p>
 					</div>
-					<img src={`${process.env.PUBLIC_URL}/plane.png`} alt="paper-plane" />
+					<img className="article-image" src={`${process.env.PUBLIC_URL}/plane.png`} alt="paper-plane" />
 				</div>
 				<div className="paragraph">
 					<h2>GIT in Teams</h2>
@@ -80,6 +86,12 @@ function article_2() {
 				flex-direction: column;
 				align-items: center;
 			}
+			.article-image {
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
 			`,
 		keywords: ["ERD", "QBMK", "Database", "Sprintplanning"],
 		body: (
@@ -101,7 +113,7 @@ function article_2() {
 							uitgewerkt tot een model dat we met onze PO willen
 							bespreken.
 						</p>
-						<img src={`${process.env.PUBLIC_URL}/ERD.png`} alt="entity-relationship diagram" />
+						<img className="article-image" src={`${process.env.PUBLIC_URL}/ERD.png`} alt="entity-relationship diagram" />
 					</div>
 					
 					<div>
