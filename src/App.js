@@ -12,6 +12,7 @@ import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
+import Rubric from "./pages/Rubric";
 
 function App() {
 	useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
 				<Route path="/articles" element={<Articles />} />
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} />
+				<Route path="/rubrics" element={<Rubric />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
