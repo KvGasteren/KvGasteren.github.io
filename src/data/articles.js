@@ -101,7 +101,7 @@ function article_2() {
 							uitgewerkt tot een model dat we met onze PO willen
 							bespreken.
 						</p>
-						<img src={`${process.env.PUBLIC_URL}/erd.png`} alt="entity-relationship diagram" />
+						<img src={`${process.env.PUBLIC_URL}/ERD.png`} alt="entity-relationship diagram" />
 					</div>
 					
 					<div>
