@@ -3,7 +3,7 @@ import React from "react";
 function article_1() {
 	return {
 		date: "25 november 2024",
-		title: "Kick Off en Git in Teamverband",
+		title: "Quizmaster dag 0",
 		description:
 			"De start van het project Quizmaster. Waar we ingedeeld werden in onze teams, een SCRUM game speelden en 's middags worstelden met GIT.",
 		keywords: [
@@ -29,6 +29,7 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
+					<h1>Kick-off en Git in teamverband</h1>
 					<div className="paragraph">
 						<h2>Kick Off</h2>
 						<p>
@@ -78,8 +79,8 @@ function article_1() {
 function article_2() {
 	return {
 		date: "26 november 2024",
-		title: "Quizmaster Dag 1 - ERD en eerste klassen",
-		description: "Eerste dag - sprintplanning, ontwerp database",
+		title: "Quizmaster Dag 1",
+		description: "Eerste dag - waar we een sprintplanning maakten, en begonnen aan het ontwerp van de database",
 		style: `
 			.article-content {
 				display: flex;
@@ -146,7 +147,7 @@ const article_3 = () => {
 	return {
 		date: "27 november 2024",
 		title: "Quizmaster Dag 2",
-		description: "Eerste standup, Maven, MVC",
+		description: "Toen we onze eerste standup hielden, en leerden over Maven en MVC architectuur",
 		style: `
 			.article-content {
 				display: flex;
@@ -191,7 +192,7 @@ const article_4 = () => {
 	return {
 		date: "28 november 2024",
 		title: "Quizmaster Dag 3",
-		description: "Text I/O, Login Scene, Working From Home, Code",
+		description: "Toen we van huis werkten en onze code gezamenlijk testten in een code review meeting",
 		style: `
 			.article-content {
 				display: flex;
