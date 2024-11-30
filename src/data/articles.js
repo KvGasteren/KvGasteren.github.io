@@ -233,8 +233,67 @@ const article_4 = () => {
 	};
 };
 
+const article_5 = () => {
+	return {
+		date: "29 november 2024",
+		title: "Quizmaster Dag 4",
+		description: "Waarop we onze eerste sprintreview en -retro hadden, en we een klassediagram wilden maken",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid red;
+			}
+			`,
+		keywords: ["Sprint Review", "Sprint Retrospective"],
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						<h2>Sprint Review</h2>
+						<p>De ochtend begon met de Sprint Review. Sander had de pet van Product Owner op en we hebben het login scherm van onze applicatie aan hem laten zien.
+						De review was gedetaileerder dan ik had verwacht. We moeten beter testen voor de volgende review. Ondanks een paar kleine foutjes, verliep de review soepel.</p>
+						<p>
+							Nadat we het login scherm goed hadden bekeken, zette Sander zijn PO-pet af, en wilde hij ook nog even in de code kijken. Ook daar kwamen wat zaken uit die we nog moeten bekijken. Die hebben we op het sprintbord gezet voor Sprint 2.
+						</p>
+						<p>
+							Het is nu een stuk duidelijker wat de verwachtingen zijn. Dus ik heb zin in de volgende review waarin we beter voorbereid kunnen laten zien wat we hebben geleerd.
+						</p>
+					</div>
+					<div className="paragraph">
+						<h2>Sprint Retrospective</h2>
+						<p>
+							Na een kopje koffie, waren we direct begonnen met een evaluatie van de review. Later bleek dat dit ook bij de retro aan bod zou komen. Dat zorgde ervoor dat we zeer goed voorbereid aan de retro begonnen.
+						</p>
+						<p>In onze evaluatie/retro hebben we samenwerking, taakverdeling en planning besproken en afspraken gemaakt hoe we zaken in Sprint 2 wilden verbeteren.</p>
+						<p>Francine begeleidde ons in de formele retro. Dat verliep redelijk soepel.</p>
+					</div>
+					<div className="paragraph">
+						<h2>Progress meeting</h2>
+						<p>
+							In de vroege middag hebben we een progressmeeting gehouden waarbij we allemaal onze code presenteerden aan het team.
+							Daaruit zijn nog wat zaken naar voren gekomen die we wilden finetunen, en daarmee zijn we in de middag aan de slag gegaan.
+							In deze vergadering hebben we ook onze code getest - het inlezen van de csv bestanden ging goed en het login en welomsscherm werkte goed.
+						</p>
+					</div>
+					<div className="paragraph">
+						<h2>Storyboarding en Klassediagram</h2>
+						<p>In de middag hebben we het storyboard uitgetekend op het whiteboard in ons kamertje. Nu is het duidelijker hoe de uiteindelijke applicatie eruit zal gaan zien. We hebben ook wat zaken gevonden die we met de PO zullen moeten bespreken. Dat is fijn want Sander had ons de feedback gegeven dat we (veel) te weinig vragen hadden gesteld.</p>
+						<p>Na het storyboard hebben we geprobeerd een begin te maken aan een UML klassediagram, maar de moeheid zette in, en we hebben die taak opgesplitst om maandag weer op te pakken.</p>
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+};
 
 
-const myArticles = [article_1, article_2, article_3, article_4];
+
+const myArticles = [article_1, article_2, article_3, article_4, article_5];
 
 export default myArticles;
