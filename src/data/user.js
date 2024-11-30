@@ -7,12 +7,10 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/kvgasteren",
+		linkedin: "https://www.linkedin.com/in/koenvangasteren/",
+		instagram: "https://www.instagram.com/sokkenkoen/",
+		stackoverflow: "https://stackoverflow.com/users/23525037/kvg",
 	},
 
 	homepage: {

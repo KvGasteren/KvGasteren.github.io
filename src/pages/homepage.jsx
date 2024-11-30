@@ -115,16 +115,6 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
@@ -186,10 +176,6 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
-
-							<div className="homepage-works">
-								<Works />
 							</div>
 						</div>
 
