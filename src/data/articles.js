@@ -292,8 +292,54 @@ const article_5 = () => {
 	};
 };
 
+const article_6 = () => {
+	return {
+		date: "29 november 2024",
+		title: "Quizmaster Sprint 2 - Dag 1",
+		description: "Waarop we beter inzicht kregen in de applicatie en leerden over testen",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid red;
+			}
+			`,
+		keywords: ["testing", "Sprint 2"],
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						<h2>Testing</h2>
+						<p>
+							's Ochtends gaf Henk les over testen. De les duurde tot de lunch. Ik zal later de documentatie nog moeten doornemen, want ik kon mijn aandacht er niet bijhouden.
+						</p>
+					</div>
+					<div className="paragraph">
+						<h2>Klassediagram uitwerken</h2>
+						<p>
+							Na een korte lunch hebben we standup gehouden. Daarna hebben we gesproken over het centraal hosten van de database via Oege.
+							En we hebben gekeken naar hoe de verschillende klassen nu met elkaar in verbinding staan. Het klassediagram krijgt zo een beetje beter vorm. We hebben besloten om bij een-op-veel relaties in het "kind" een verwijzing naar de "ouder" op te slaan.
+						</p>
+					</div>
+					<div className="paragraph">
+						<h2>Dagelijks werk</h2>
+						<p>
+							Na de vergadering zijn we naar huis gegaan om daar verder te werken. Ik heb thuis nog wat issues met ons ERD (overgebleven uit Sprint1) opgelost en een beginnetje gemaakt aan de service layer.
+						</p>
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+};
 
 
-const myArticles = [article_1, article_2, article_3, article_4, article_5];
+
+const myArticles = [article_1, article_2, article_3, article_4, article_5, article_6];
 
 export default myArticles;
