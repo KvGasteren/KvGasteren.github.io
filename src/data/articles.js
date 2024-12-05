@@ -294,7 +294,7 @@ const article_5 = () => {
 
 const article_6 = () => {
 	return {
-		date: "29 november 2024",
+		date: "2 december 2024",
 		title: "Quizmaster Sprint 2 - Dag 1",
 		description: "Waarop we beter inzicht kregen in de applicatie en leerden over testen",
 		style: `
@@ -338,8 +338,90 @@ const article_6 = () => {
 	};
 };
 
+const article_7 = () => {
+	return {
+		date: "3 december 2024",
+		title: "Quizmaster Sprint 2 - Dag 2",
+		description: "Toen we leerden over noSQL en werkten aan onze klassen",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
 
+			.randImage {
+				align-self: center;
+				outline: 2px solid red;
+			}
+			`,
+		keywords: ["testing", "Sprint 2"],
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						<h2>NoSQL</h2>
+						<p>
+							De dag begon met een korte instructie over NoSQL en daarna ruimte om oefeningen te maken. Erg fijn. Rond 11 uur was er een tweede instructie, en daarna lunch.
+						</p>
+					</div>
+					<div className="paragraph">
+						<h2>Standup en werk</h2>
+						<p>
+							Er was een iemand ziek, dus de standup was met een persoon minder. We beginnen tegen afhankelijkheden aan te lopen, dus hebben wat tijd genomen om GIT uit te pluizen en in elkaars code te kijken.
+							De rest van de middag hebben we gewerkt aan onze taken voor deze sprint.
+						</p>
+						<p>
+							Bogdan en ik hebben nog snel een Enum toegevoegd voor de niveaus. Bij het pushen naar de repo heb ik iets te snel op ok geklikt waardoor mijn unstaged changes verloren zijn gegaan.
+							Gelukkig was het werk dat ik had gedaan voornamelijk inzicht verwerven - dus veel werk is niet verloren gegaan. Maar ik heb wel geleerd de tijd te nemen met GIT.
+						</p>
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+};
 
-const myArticles = [article_1, article_2, article_3, article_4, article_5, article_6];
+const article_8 = () => {
+	return {
+		date: "4 december 2024",
+		title: "Quizmaster Sprint 2 - Dag 3",
+		description: "Waarop de teamwork workshop niet doorging (zucht), en er meer voortgang werd geboekt",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid red;
+			}
+			`,
+		keywords: ["testing", "Sprint 2"],
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						<h2>Teamwork workshop - blamage</h2>
+						<p>
+							Francine nam het eenzijdige besluit de Teamwork workshop niet door te laten gaan omdat er incomplete teams waren. Dat viel niet goed. Ik ben maar even weggelopen want het was vooral veel emotie die niet echt bijdroeg aan mijn leergang of humeur.
+						</p>
+					</div>
+					<div className="paragraph">
+						<h2>Standup en werk</h2>
+						<p>
+							We hielden standup en spraken af morgenochten een doorloop te doen om te kijken hoe de applicatie er nu voorstaat.
+							De rest van de dag hebben we gedeeltelijk samen in Hilversum en gedeeltelijk thuis gewerkt aan onze taken.
+						</p>
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+};
+
+const myArticles = [article_1, article_2, article_3, article_4, article_5, article_6, article_7, article_8];
 
 export default myArticles;

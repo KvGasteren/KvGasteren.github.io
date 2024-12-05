@@ -38,11 +38,11 @@ const Rubric = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.projects[0].title}
+									{INFO.projects[1].title}
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.projects[0].description}
+									{INFO.projects[1].description}
 								</div>
 							</div>
 
