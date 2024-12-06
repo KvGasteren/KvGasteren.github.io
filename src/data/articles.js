@@ -422,6 +422,44 @@ const article_8 = () => {
 	};
 };
 
-const myArticles = [article_1, article_2, article_3, article_4, article_5, article_6, article_7, article_8];
+const article_9 = () => {
+	return {
+		date: "5 december 2024",
+		title: "Quizmaster Sprint 2 - Dag 4",
+		description: "pakjesavond",
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid red;
+			}
+			`,
+		keywords: ["testing", "Sprint 2"],
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						<h2>Runthrough</h2>
+						<p>
+							we kwamen in de ochtend bijeen in Hilversum voor de standup. Aansluitend deden we een runthrough van de applicatie en probeerden we zoveel mogelijk kapot te maken.
+							We hebben de dag besteed aan het werken aan de takenlijst die uit de runthough voortkwam.
+						</p>
+						<p>
+							Het viel me op hoeveel werk er nog zit in het maken van twee schermen nadat je denkt dat ze al af zijn. Het ziet er nog steeds niet prachtig uit, maar het functioneert.
+							Ik ben benieuwed hoe de review morgen zal gaan.
+						</p>
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+};
+
+const myArticles = [article_1, article_2, article_3, article_4, article_5, article_6, article_7, article_8, article_9];
 
 export default myArticles;
